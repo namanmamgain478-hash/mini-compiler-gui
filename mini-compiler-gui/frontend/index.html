@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Compiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1> Mini Compiler GUI</h1>
+<p style="color: yellow;">
+⚠️ This mini compiler currently supports only simple TXT-based code (no full C syntax)
+</p>
+
+<div class="container">
+    
+    <!-- Code Editor -->
+    <textarea id="code"placeholder="Enter code in TXT format only (no {} blocks)
+
+Example:
+int x;
+x = 10;">
+</textarea>
+
+    <!-- Button -->
+    <button onclick="compileCode()">Compile ▶</button>
+
+    <!-- Output -->
+   <h3>Output:</h3>
+<pre id="output" class="output-box"></pre>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
